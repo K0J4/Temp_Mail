@@ -2,4 +2,4 @@
 import os
 os.system('xdg-open https://www.facebook.com/Monster.suqad.onwer=')
 import temp_mail
-temp-mail.main()
+temp_mail.main()
