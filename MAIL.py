@@ -6,11 +6,12 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from TEMP_64 import main
-    main()
+    import TEMP_64
+    TEMP_64.main()
 elif bit == '32bit':
-    from temp_mail import main
+    import temp_mail
     main()
+    
 else:
     print('\n YOUR DEVICE IS NOT SUPPORT THIS COMMAND')
     os.system('exit')
