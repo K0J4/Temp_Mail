@@ -1,6 +1,4 @@
 import os, platform
-    os.system('xdg-open https://www.facebook.com/Monster.suqad.onwer')
-    time.sleep(2)
 try:
     import requests
 except:
